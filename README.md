@@ -1,37 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UIBits
 
-## Getting Started
+UIBits is a curated collection of high-quality UI components and libraries from talented developers worldwide. This platform helps developers discover, share, and get inspired by amazing UI components.
 
-First, run the development server:
+## Contributing
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+We welcome contributions from the community! Here's how you can submit your UI component or library:
+
+### 1. Prepare Your Component Data
+
+Add your component information to `public/data/components.json`. Each component should follow this structure:
+
+```json
+{
+  "id": "[next-available-id]",
+  "componentName": "Your Component Name",
+  "videoUrl": "/images/[component-folder]/preview.gif",
+  "imageUrl": "/images/[component-folder]/preview.gif",
+  "githubUrl": "https://github.com/username/repo",
+  "livePreviewUrl": "https://demo-url.com",
+  "stats": {
+    "stars": 0,
+    "forks": 0
+  },
+  "creator": {
+    "username": "Creator's GitHub Username",
+    "avatarUrl": "/images/[component-folder]/avatar.png",
+    "isFeatured": false
+  },
+  "techStack": "react/vue/js/svelte"
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Add Component Assets
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Place your component assets in the correct directory structure under `public/images/`:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### For Individual Components:
 
-## Learn More
+```
+public/images/[component-name]/
+├── preview.gif        # Main preview animation
+└── logo.(png|jpg)    # Your or component's logo
+```
 
-To learn more about Next.js, take a look at the following resources:
+#### For Library Components:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+public/images/[library-name]/[component-name]/
+├── preview.gif        # Main preview animation
+└── logo.(png|jpg)    # Library or component logo
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Asset Requirements
 
-## Deploy on Vercel
+- **Preview GIF**: A high-quality demonstration of your component in action
+- **Logo**: Square format recommended, transparent background preferred
+- **Folder Names**: Use lowercase, hyphen-separated names matching your GitHub repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. Submit Your PR
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# uibits
+1. Fork the repository
+2. Create a new branch: `git checkout -b add-your-component`
+3. Add your component data and assets
+4. Commit your changes: `git commit -m "Add: Your Component Name"`
+5. Push to your fork: `git push origin add-your-component`
+6. Create a Pull Request
+
+## Development
+
+To run the project locally:
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## License
+
+MIT License - feel free to use and contribute!
