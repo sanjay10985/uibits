@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 export function Navbar() {
   return (
     <header className="border-b border-gray-100" role="banner">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-center">
+      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link
             href="/"
@@ -68,6 +68,17 @@ export function Navbar() {
             Log in
           </Link>
         </div> */}
+        <div className="flex items-center gap-3">
+          <Link
+            href="https://forms.gle/K4FcBCnG1PQNo1tm7"
+            target="_blank"
+            rel="noopener noreferrer"
+            // className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-zinc-900 rounded-lg hover:bg-zinc-800 transition-colors duration-200 ml-auto"
+            className="underline"
+          >
+            Join us
+          </Link>
+        </div>
       </div>
     </header>
   );
