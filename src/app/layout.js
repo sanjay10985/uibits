@@ -15,28 +15,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dribbble Clone - Discover the World's Best Components",
+  title: "UI Bits - Discover the World's Best Components",
   description:
-    "Explore and discover high-quality UI components from talented developers worldwide. Find inspiration, download resources, and connect with designers.",
+    "Explore and discover high-quality UI components from talented developers worldwide. Find inspiration, download resources, and connect with developers.",
   keywords: [
     "UI components",
     "design",
     "development",
     "inspiration",
     "dribbble",
-    "designers",
+    "developers",
   ],
   openGraph: {
-    title: "Dribbble Clone - Discover the World's Best Components",
+    title: "UIBits - Discover the World's Best Components",
     description:
       "Explore high-quality UI components from talented developers worldwide",
     type: "website",
     locale: "en_US",
-    siteName: "Dribbble Clone",
+    siteName: "UIBits",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dribbble Clone - Discover the World's Best Components",
+    title: "UIBits - Discover the World's Best Components",
     description:
       "Explore high-quality UI components from talented developers worldwide",
   },
@@ -61,8 +61,7 @@ export default function RootLayout({ children }) {
         <footer className="bg-gray-100 py-8">
           <div className="container mx-auto px-4">
             <p className="text-center text-gray-600">
-              &copy; {new Date().getFullYear()} Dribbble Clone. All rights
-              reserved.
+              &copy; {new Date().getFullYear()} UIBits. All rights reserved.
             </p>
           </div>
         </footer>
