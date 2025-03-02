@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "id": 1,
+      "componentName": "Metalic Paint",
+      "videoUrl": "/images/reactbits/metalic-paint/preview.gif",
+      "imageUrl": "/images/reactbits/metalic-paint/preview.gif",
+      "githubUrl": "https://github.com/DavidHDev/react-bits",
+      "livePreviewUrl": "https://www.reactbits.dev/animations/metallic-paint",
+      "stats": {
+        "stars": 8300,
+        "forks": 275
+      },
+      "creator": {
+        "username": "David",
+        "avatarUrl": "/images/reactbits/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React"
+    },
+    {
+      "id": 2,
+      "componentName": "Animated Loaders",
+      "videoUrl": "/videos/yuanyun-loaders/preview.gif",
+      "imageUrl": "/videos/yuanyun-loaders/preview.gif",
+      "githubUrl": "https://github.com/yuanyan/halogen",
+      "livePreviewUrl": "https://yuanyan.github.io/halogen/",
+      "stats": {
+        "stars": 1600,
+        "forks": 150
+      },
+      "creator": {
+        "username": "Yuanyan",
+        "avatarUrl": "/images/halogen-loaders/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "js"
+    },
+    {
+      "id": 3,
+      "componentName": "Animated Grid Lines",
+      "videoUrl": "/images/animated-gridlines/preview.gif",
+      "imageUrl": "/images/animated-gridlines/preview.gif",
+      "githubUrl": "https://github.com/robertcoopercode/animated-grid-lines",
+      "livePreviewUrl": "https://robertcoopercode.github.io/animated-grid-lines/?path=/story/welcome--default",
+      "stats": {
+        "stars": 87,
+        "forks": 16
+      },
+      "creator": {
+        "username": "Robert Cooper",
+        "avatarUrl": "/images/animated-gridlines/avatar.png",
+
+        "isFeatured": true
+      },
+      "techStack": "React"
+    },
+    {
+      "id": 4,
+      "componentName": "Animated Hamburgers",
+      "videoUrl": "/images/react-animated-burgers/preview.gif",
+      "imageUrl": "/images/react-animated-burgers/preview.gif",
+      "githubUrl": "https://github.com/AuvikAlive/react-animated-burgers",
+      "livePreviewUrl": "https://auvikalive.github.io/react-animated-burgers/",
+      "stats": {
+        "stars": 97,
+        "forks": 12
+      },
+      "creator": {
+        "username": "Mir Neamul Karim",
+        "avatarUrl": "/images/react-animated-burgers/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React"
+    },
+    {
+      "id": 5,
+      "componentName": "Inplace Expandable Modal",
+      "videoUrl": "/images/kokonutui/inplace-expandable-modal/preview.gif",
+      "imageUrl": "/images/kokonutui/inplace-expandable-modal/preview.gif",
+      "githubUrl": "https://github.com/kokonut-labs/kokonutui",
+      "livePreviewUrl": "https://kokonutui.com/docs/blocks/minimal-shop",
+      "stats": {
+        "stars": 614,
+        "forks": 24
+      },
+      "creator": {
+        "username": "Kokonut Labs",
+        "avatarUrl": "/images/kokonutui/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React"
+    },
+    {
+      "id": 6,
+      "componentName": "Wave UI",
+      "videoUrl": "/images/react-wavify/preview.gif",
+      "imageUrl": "/images/react-wavify/preview.gif",
+      "githubUrl": "https://github.com/woofers/react-wavify",
+      "livePreviewUrl": "https://jaxs.onl/react-wavify/",
+      "stats": {
+        "stars": 338,
+        "forks": 16
+      },
+      "creator": {
+        "username": "Jaxson Van Doorn",
+        "avatarUrl": "/images/react-wavify/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React"
+    },
+    {
+      "id": 7,
+      "componentName": "Stripe Menu",
+      "videoUrl": "/images/react-stripe-menu/preview.gif",
+      "imageUrl": "/images/react-stripe-menu/preview.gif",
+      "githubUrl": "https://github.com/aholachek/react-stripe-menu?tab=readme-ov-file",
+      "livePreviewUrl": "https://alex.holachek.com/react-stripe-menu/",
+      "stats": {
+        "stars": 465,
+        "forks": 59
+      },
+      "creator": {
+        "username": "Alex Holachek",
+        "avatarUrl": "/images/react-stripe-menu/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React"
+    },
+    {
+      "id": 8,
+      "componentName": "Stripe Menu",
+      "videoUrl": "/images/number-flow/preview.gif",
+      "imageUrl": "/images/number-flow/preview.gif",
+      "githubUrl": "https://github.com/barvian/number-flow",
+      "livePreviewUrl": "https://number-flow.barvian.me/",
+      "stats": {
+        "stars": 5700,
+        "forks": 101
+      },
+      "creator": {
+        "username": "Max Barvian",
+        "avatarUrl": "/images/react-stripe-menu/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React,vue,svelte"
+    },
+    {
+      "id": 9,
+      "componentName": "React Stonecutter",
+      "videoUrl": "/images/react-stonecutter/preview.gif",
+      "imageUrl": "/images/react-stonecutter/preview.gif",
+      "githubUrl": "https://github.com/dantrain/react-stonecutter",
+      "livePreviewUrl": "https://dantrain.github.io/react-stonecutter/",
+      "stats": {
+        "stars": 1200,
+        "forks": 72
+      },
+      "creator": {
+        "username": "Dan Train",
+        "avatarUrl": "/images/react-stonecutter/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React"
+    },
+    {
+      "id": 10,
+      "componentName": "React Sortable Hoc",
+      "videoUrl": "/images/react-sortable-hoc/preview.gif",
+      "imageUrl": "/images/react-sortable-hoc/preview.gif",
+      "githubUrl": "https://github.com/clauderic/react-sortable-hoc",
+      "livePreviewUrl": "https://clauderic.github.io/react-sortable-hoc/#/basic-configuration/basic-usage?_k=gomy2g",
+      "stats": {
+        "stars": 10950,
+        "forks": 987
+      },
+      "creator": {
+        "username": "Claudéric Demers",
+        "avatarUrl": "/images/react-sortable-hoc/avatar.png",
+        "isFeatured": false
+      },
+      "techStack": "React"
+    }
+  ]
+}
